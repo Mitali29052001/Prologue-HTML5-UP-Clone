@@ -1,0 +1,240 @@
+body{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+#navbarSection{
+    background-color: #222629;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    text-align: right;
+}
+#navbarSection img{
+    width: 50px;
+    height: 50px;
+    margin: 1.75em 1.5em 1.5em 10.5em;
+    position: relative;
+}
+#navbarSection h1{
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0px 0 0 5.5em;
+    padding-right: 39px;
+
+}
+#navbarSection p{
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 0.25em;
+    margin: 0.5em 0 0 0px;
+    padding-right: 42px;
+
+
+}
+#navbarSection1 {
+    color: white;
+    padding-right: 81px;
+    display: block;
+}
+#navbarSection1 ul{
+    list-style: none;
+}
+#navbarSection1 ul li{
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    color: rgba(255, 255, 255, 0.5);
+}   
+#navbarSection1  ul  li span{
+    font-size: 1em;
+}
+
+#navbarSection1  ul  li span::before{
+    position: absolute;
+    text-align: center;
+    width: 27em;
+    left: 0;
+    color: palevioletred;
+}
+#navbarSection2{
+    text-align: center;
+    margin-top: 90px;
+
+}
+#navbarSection2 .fa{
+    margin-right: 10px;
+    color: rgba(255, 255, 255, 0.5);;
+}
+#headerSection{
+    background-image: url(images/banner.jpg);
+    margin-left: 253px;
+    width: 1042px;
+    display: inline-block;
+    height: 600px;
+    top: 0;
+    text-align: center;
+    color: white;
+    margin-top: -8px;
+}
+#headerSection h1{
+    margin-top: 116px;
+    font-size: 40px;
+}
+#headerSection p{
+   font-size: 25px; 
+}
+#headerSection button{
+    background-color: #8ebebc;
+    color: white;
+    padding: 24px 54px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+#imgSection{
+    width: 1042px;
+    background-color: #f5fafa;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 253px;
+    height: 1071px;
+}
+#imgSection h1{
+    font-size: 3em;
+    font-weight: 300;
+    color: #666;
+    line-height: 200px
+}
+#imgSection p{
+    font-size: 22px;
+    margin-top: -60px;
+    line-height: 40px;
+}
+
+#imgSection  div{
+    display: inline-block;
+}
+#imgSection div h2{
+    background: #fff;
+    padding: 2em 0 2em 0;
+    font-size: 0.8em;
+    margin: -5px 7px -3px 10px;
+    line-height: 1px;
+}
+#imgSection  div img{
+    width: 305px;
+    padding: 37px 10px 0px 10px;
+    
+}
+/* #imgSection1  #img1 img{
+    width: 314px;
+} */
+/* #imgSection1 div #img2 img{
+    width: 250px;
+    padding: 10px;
+    
+} */
+/* #imgSection1  #img3 img{
+    width: 314px;
+} */
+#aboutSection{
+    background-color: #ecf1f1;
+    margin-left: 253px;
+    width: 1042px;
+    display: inline-block;
+    height: 780px;
+    text-align: center;
+}
+#aboutSection img{
+    width: 90%;
+}
+#aboutSection h1{
+    font-size: 3em;
+    font-weight: 300;
+    color: #666;
+    line-height: 100px
+}
+#aboutSection p{
+    font-size: 21px;
+    margin-top: 56px;
+    line-height: 40px;
+}
+#contactSection{
+    background-color: #e8edec;
+    margin-left: 253px;
+    width: 1042px;
+    display: inline-block;
+    height: 875px;
+    text-align: center;
+}
+#contactSection h1{
+    font-size: 3em;
+    font-weight: 300;
+    color: #666;
+    line-height: 100px
+}
+#contactSection p{
+    font-size: 21px;
+    line-height: 40px;
+}
+#contactSection div{
+    display: block;
+}
+#contactSection div input{
+    width: 428px;
+    padding: 1.5em 1em 1.5em 1em;
+    margin: 10px;
+    border-radius: 1em;
+    border: solid 1px white;
+    background: #ffffffbf;
+    
+}
+#contactSection div input::placeholder{
+    color: #666;
+    font-size: 1rem;
+}
+#contactSection div textarea {
+    height: 289px;
+    width: 930px;
+    border-radius: 1em;
+    border: solid 1px white;
+    margin-top: 20px;
+    background: #ffffffbf;
+}
+#contactSection div textarea::placeholder{
+    color: #666;
+    font-size: 1.1rem;
+}
+#contactSection button{
+    background-color: #8ebebc;
+    color: white;
+    padding: 24px 54px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-color: #8ebebc;
+}
+#footerSection {
+    margin: -15px 0 0 253px;
+    width: 1042px;
+    height: 170px;
+    background: #dce3e2;
+
+}
+#footerSection ul{
+    font-size: 14px;
+    color: #555;
+    list-style: none;
+    margin-left: 202px;
+}
+#footerSection ul li{
+    display: inline-block;
+    font-size: 16px;
+    color: #555;
+    padding: 80px 6px 80px 6px;
+}
